@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_graph"
+    app:startDestination="@id/homeActivityFragment">
+
+    <fragment
+        android:id="@+id/homeActivityFragment"
+        android:name="com.github.prabalhazra.newsify.ui.HomeActivityFragment"
+        android:label="Newsify"
+        tools:layout="@layout/fragment_home_activity"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right"/>
+    <fragment
+        android:id="@+id/searchActivityFragment"
+        android:name="com.github.prabalhazra.newsify.ui.SearchActivityFragment"
+        android:label="Search News"
+        tools:layout="@layout/fragment_search_activity"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right"/>
+    <fragment
+        android:id="@+id/categoryActivityFragment"
+        android:name="com.github.prabalhazra.newsify.ui.CategoryActivityFragment"
+        android:label="Categories"
+        tools:layout="@layout/fragment_category_activity">
+        <action
+            android:id="@+id/action_categoryActivityFragment_to_sportsFragment"
+            app:destination="@id/sportsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_categoryActivityFragment_to_healthFragment"
+            app:destination="@id/healthFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_categoryActivityFragment_to_entertainmentFragment"
+            app:destination="@id/entertainmentFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_categoryActivityFragment_to_technologyFragment"
+            app:destination="@id/technologyFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_categoryActivityFragment_to_businessFragment"
+            app:destination="@id/businessFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/businessFragment"
+        android:name="com.github.prabalhazra.newsify.ui.fragment.BusinessFragment"
+        android:label="Business News"
+        tools:layout="@layout/fragment_business"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right"/>
+    <fragment
+        android:id="@+id/entertainmentFragment"
+        android:name="com.github.prabalhazra.newsify.ui.fragment.EntertainmentFragment"
+        android:label="Entertainment News"
+        tools:layout="@layout/fragment_entertainment"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right"/>
+    <fragment
+        android:id="@+id/healthFragment"
+        android:name="com.github.prabalhazra.newsify.ui.fragment.HealthFragment"
+        android:label="Health News"
+        tools:layout="@layout/fragment_health"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right"
+        />
+    <fragment
+        android:id="@+id/sportsFragment"
+        android:name="com.github.prabalhazra.newsify.ui.fragment.SportsFragment"
+        android:label="Sports News"
+        tools:layout="@layout/fragment_sports"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right"/>
+    <fragment
+        android:id="@+id/technologyFragment"
+        android:name="com.github.prabalhazra.newsify.ui.fragment.TechnologyFragment"
+        android:label="Technology News"
+        tools:layout="@layout/fragment_technology"
+        app:enterAnim="@anim/slide_in_right"
+        app:exitAnim="@anim/slide_out_left"
+        app:popEnterAnim="@anim/slide_in_left"
+        app:popExitAnim="@anim/slide_out_right"/>
+
+</navigation>

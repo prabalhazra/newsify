@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19453125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/drawable/bottom_back.xml" value="0.1953125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/drawable/ic_category.xml" value="0.1953125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/drawable/ic_favorite.xml" value="0.1953125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1953125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/drawable/ic_search.xml" value="0.1953125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/drawable/search_bg.xml" value="0.1953125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/activity_main.xml" value="0.24051282051282052" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/activity_web.xml" value="0.182421875" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/fragment_business.xml" value="0.183203125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/fragment_category_activity.xml" value="0.24051282051282052" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/fragment_entertainment.xml" value="0.11666666666666667" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/fragment_general.xml" value="0.183203125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/fragment_headlines.xml" value="0.183203125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/fragment_health.xml" value="0.183203125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/fragment_home.xml" value="0.2" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/fragment_home_activity.xml" value="0.24427083333333333" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/fragment_politics.xml" value="0.11666666666666667" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/fragment_save_activity.xml" value="0.24427083333333333" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/fragment_search_activity.xml" value="0.182421875" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/fragment_sports.xml" value="0.24427083333333333" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/fragment_technology.xml" value="0.11666666666666667" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/fragment_web.xml" value="0.183203125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/fragment_web_view_activity.xml" value="0.24427083333333333" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/item_adapter.xml" value="0.183203125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/item_adapter_horizontal.xml" value="0.183203125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/item_adapter_vertical.xml" value="0.183203125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/layout/tab_item_bg.xml" value="0.24427083333333333" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/menu/bottom_menu.xml" value="0.183203125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/menu/buttom_menu.xml" value="0.15069444444444444" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19453125" />
+        <entry key="..\:/Android Development/Newsify/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1953125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
